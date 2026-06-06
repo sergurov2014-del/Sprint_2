@@ -19,7 +19,7 @@ class Football(Results):
         print(f"Футбольных поражений: {self.losses}")
 
     def total_football_points(self):
-        print(f"Общее количество очков: {self.victories*3+self.draws}")
+        print(f"Общее количество очков: {self.victories*2+self.draws}")
 
 
 class Hockey(Results):
